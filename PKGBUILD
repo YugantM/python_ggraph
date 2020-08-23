@@ -4,9 +4,9 @@ pkgrel=1
 pkgdesc="topological sorting"
 arch=("any")
 makedepends=('python' 'python-setuptools')
-url="https://github.com/YugantM/ggraph"
+url="https://github.com/YugantM/Graph_Traversal"
 _dir="ggraph"
-source=("${_dir}"::"git+https://github.com/yugantm/ggraph.git")
+source=("${_dir}"::"git+https://github.com/YugantM/Graph_Traversal.git")
 md5sums=('SKIP')
 
 build() {
